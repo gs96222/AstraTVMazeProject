@@ -5,7 +5,7 @@ import {styles} from './styles';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
 const Offline = () => {
-  const [connection, setConnection] = useState(false);
+  const [connection, setConnection] = useState(true);
   const insets = useSafeAreaInsets();
 
   useEffect(() => {

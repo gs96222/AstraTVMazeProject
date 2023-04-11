@@ -9,7 +9,7 @@ interface SearchState {
 
 // Define the initial state using that type
 const initialState: SearchState = {
-  searchText: 'hello',
+  searchText: '',
 };
 
 export const searchSlice = createSlice({
